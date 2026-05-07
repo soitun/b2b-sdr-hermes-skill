@@ -1,4 +1,9 @@
 
+## 2026-05-07T13:00:00Z — Drain run (no new release)
+- Latest stable: v2026.4.30 (unchanged)
+- WeChat queue drain attempt for v2026.4.30: STILL FAILING — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- Action: v2026.4.30 remains in queue; will retry on next run
+
 ## 2026-05-07T12:00:00Z — Drain run (no new release)
 - Latest stable: v2026.4.30 (unchanged)
 - WeChat queue drain attempt for v2026.4.30: STILL FAILING — appsecret 40125 outage persists (rid: 69fc5dcc-0e305d4c-75071bb5)
