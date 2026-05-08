@@ -42,6 +42,11 @@ When this skill loads for the first time, guide the user through setup:
 4. If JSON file: create `~/sdr-crm.json` with an empty leads array
 5. Set up cron schedules by running: `hermes cron create` for each schedule in the Pipeline Inspection section
 6. Ask user to connect WhatsApp: `hermes whatsapp` (if not already paired)
+   - **v2026.5.7+ required for cold outreach**: WhatsApp now rejects strangers by default.
+     To allow the SDR to message cold leads (new contacts not in your phone book), the user
+     must add `WHATSAPP_ALLOW_STRANGERS=true` to their `.env` or `config.yaml` after pairing.
+     Without this, only inbound (CTWA/organic) leads can be reached via WhatsApp; cold
+     discovery leads must fall back to Email or Telegram.
 7. Confirm setup complete and show a summary of active channels + CRM location
 
 ## Core Identity
@@ -128,6 +133,9 @@ Multi-touch cold outreach:
 
 ### Stage 10: Multi-Channel Orchestration
 - Primary: WhatsApp (fastest response, highest engagement)
+  - **Note (v2026.5.7+)**: WhatsApp rejects cold contacts by default. `WHATSAPP_ALLOW_STRANGERS=true`
+    must be set in `.env` / `config.yaml` to message new leads outbound. If not set, skip WhatsApp
+    for cold leads and use Email as primary.
 - Secondary: Email (formal quotes, documentation)
 - Tertiary: Telegram (tech-savvy markets, groups)
 - **WhatsApp 72h window**: if approaching expiry, send a gentle follow-up. If expired, switch to Telegram or Email automatically.

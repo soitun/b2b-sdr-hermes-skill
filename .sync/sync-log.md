@@ -22,3 +22,9 @@
 - Blog EN: https://pulseagent.io/en/blog/hermes-agent-v2026-4-30-curator-release-b2b-sdr-skill
 - Blog ZH: https://pulseagent.io/en/blog/hermes-agent-v2026-4-30-curator-release-b2b-sdr-skill-zh
 - WeChat: queued (appsecret 40125 outage — self-healing queue active)
+## 2026-05-08T02:31:00Z — Synced Hermes v2026.5.7
+- Categories: BREAKING=1 (WhatsApp stranger rejection), RELEVANT=2 (redact default on, cron reliability), WATCH=1 (cron injection scan), SKIP=many (kanban, /goal, Google Chat)
+- Skill compat: SKILL.md updated — WhatsApp ALLOW_STRANGERS note added to setup step 6 + Stage 10
+- Blog en: https://pulseagent.io/en/blog/hermes-agent-v2026-5-7-tenacity-release-b2b-sdr-skill
+- Blog zh: https://pulseagent.io/blog/hermes-agent-v2026-5-7-tenacity-release-b2b-sdr-skill-zh
+- WeChat: queued (40125 appsecret outage — queue now has v2026.4.30, v2026.5.7)
