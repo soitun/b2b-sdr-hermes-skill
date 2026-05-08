@@ -28,3 +28,10 @@
 - Blog en: https://pulseagent.io/en/blog/hermes-agent-v2026-5-7-tenacity-release-b2b-sdr-skill
 - Blog zh: https://pulseagent.io/blog/hermes-agent-v2026-5-7-tenacity-release-b2b-sdr-skill-zh
 - WeChat: queued (40125 appsecret outage — queue now has v2026.4.30, v2026.5.7)
+
+## 2026-05-08T00:00:00Z — Drain run (no new release)
+- Latest stable: v2026.5.7 (unchanged — matches last-release)
+- WeChat queue drain attempt for v2026.4.30: STILL FAILING — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat queue drain attempt for v2026.5.7: STILL FAILING — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- Queue size: 2 (v2026.4.30, v2026.5.7 remain queued)
+- Action: no new release processed; queue retained for next retry
