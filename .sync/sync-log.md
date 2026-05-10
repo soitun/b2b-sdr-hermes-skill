@@ -134,3 +134,11 @@
 - Recovered 22 detached-HEAD commits via fast-forward into local main
 - git push 403 (local proxy); pushed via MCP push_files fallback
 - Action: no new release processed; queue retained for next retry
+
+## 2026-05-10T00:00:00Z — Drain run (no new release)
+- Latest stable: v2026.5.7 (unchanged — matches last-release; confirmed via api.github.com/repos/NousResearch/hermes-agent/releases)
+- WeChat queue drain attempt for v2026.4.30: REPUSH ERROR — HTTP 403 error code 1010 (appsecret 40125 outage persists)
+- WeChat queue drain attempt for v2026.5.7: REPUSH ERROR — HTTP 403 error code 1010 (appsecret 40125 outage persists)
+- Queue size: 2 (v2026.4.30, v2026.5.7 remain queued)
+- Recovered detached-HEAD via branch fast-forward (main was 24 commits behind HEAD)
+- Action: no new release processed; queue retained for next retry
