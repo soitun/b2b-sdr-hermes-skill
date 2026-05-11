@@ -1,3 +1,10 @@
+## 2026-05-11T13:00:00Z — Drain run (no new release)
+- Latest stable: v2026.5.7 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases)
+- WeChat queue drain attempt for v2026.4.30: REPUSH ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (rid: 6a01a445-7afa351a-47e80987; outage persists)
+- WeChat queue drain attempt for v2026.5.7: REPUSH ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (rid: 6a01a450-74a284a9-1b9e068d; outage persists)
+- Queue size: 2 (v2026.4.30, v2026.5.7 remain queued)
+- Action: no new release processed; queue retained for next retry
+
 ## 2026-05-11T12:00:00Z — Drain run (no new release)
 - Latest stable: v2026.5.7 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases)
 - WeChat queue drain attempt for v2026.4.30: REPUSH ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (rid: 6a0177fc-753a9415-60cdf57e; outage persists)
