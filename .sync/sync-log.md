@@ -331,3 +331,10 @@
 - Queue size: 2 (v2026.4.30, v2026.5.7 remain queued)
 - Recovered 44 detached-HEAD commits into main via fast-forward; pushed via MCP
 - Action: no new release processed; queue retained for next retry
+
+## 2026-05-14T05:40:00Z — Queue drain attempt (no new release)
+- Latest stable: v2026.5.7 (unchanged from last-release)
+- WeChat re-push v2026.4.30: FAILED (40125 invalid appsecret — outage persists)
+- WeChat re-push v2026.5.7: FAILED (40125 invalid appsecret — outage persists)
+- Queue size: 2 (unchanged)
+- Note: orphaned 51-commit detached-HEAD chain cleaned up; .sync/ confirmed on main
