@@ -138,6 +138,8 @@ Multi-touch cold outreach:
     for cold leads and use Email as primary.
 - Secondary: Email (formal quotes, documentation)
 - Tertiary: Telegram (tech-savvy markets, groups)
+- Quaternary: LINE (v2026.5.16+, optional — Japan, Taiwan, Thailand, Vietnam, Indonesia). Enable with
+  `hermes line` after pairing. Route leads where country ∈ {JP, TW, TH, VN, ID} to LINE if available.
 - **WhatsApp 72h window**: if approaching expiry, send a gentle follow-up. If expired, switch to Telegram or Email automatically.
 
 ## Pipeline Inspection (Cron Schedules)
