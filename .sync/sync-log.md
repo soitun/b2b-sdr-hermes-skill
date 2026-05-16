@@ -438,3 +438,11 @@
 - Blog zh: https://pulseagent.io/en/blog/hermes-v2026-5-16-foundation-release-b2b-sdr-skill-zh
 - WeChat: queued (appsecret 40125 outage persists; queue now v2026.4.30, v2026.5.7, v2026.5.16)
 - Queue drain attempt (step 0): v2026.4.30 HTTP 403, v2026.5.7 HTTP 403 — no change
+
+## 2026-05-16T11:45:00Z — Drain run (no new release)
+- Latest stable: v2026.5.16 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases.atom)
+- WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.7: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.16: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
+- Action: no new release; queue retained for next retry
