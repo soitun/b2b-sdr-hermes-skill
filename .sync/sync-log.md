@@ -1,3 +1,11 @@
+## 2026-05-19T10:35:00Z — Drain run (no new release)
+- Latest stable: v2026.5.16 (unchanged — confirmed via github.com/NousResearch/hermes-agent/releases.atom + releases page)
+- WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (rid: 6a0c3cee-2765f81a-46892160; outage persists)
+- WeChat re-push v2026.5.7: REPUSH ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (rid: 6a0c3cef-47b652aa-418c586a; outage persists)
+- WeChat re-push v2026.5.16: REPUSH ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (rid: 6a0c3cef-3469bba1-678edb23; outage persists)
+- Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
+- Action: no new release; queue retained for next retry
+
 ## 2026-05-19T08:00:00Z — Drain run (no new release)
 - Latest stable: v2026.5.16 (unchanged — confirmed via github.com/NousResearch/hermes-agent/releases.atom)
 - WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 403 error code 1010 (appsecret 40125 outage persists)
@@ -6,27 +14,42 @@
 - Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
 - Action: no new release; queue retained for next retry
 
+## 2026-05-19T07:37:00Z — Drain run (no new release)
+- Latest stable: v2026.5.16 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases)
+- WeChat re-push v2026.4.30: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.7: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.16: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
+- Action: no new release; fast-forwarded 29 detached-HEAD commits into main; queue retained for next retry
+
+## 2026-05-19T09:45:00Z — Drain run (no new Hermes release)
+- Latest stable: v2026.5.16 (unchanged)
+- WeChat queue drain: STILL FAILING — 3 items remain (v2026.4.30, v2026.5.7, v2026.5.16)
+- WeChat error: 40125 invalid appsecret — outage continues (known, per operator notes)
+- Repo fix: fast-forwarded main from 8121455 (2026-05-14) to a1aeb85 (31 orphaned commits merged) — previous sessions committed to detached HEAD instead of main branch
+- Skill compat: no change
+
 ## 2026-05-19T00:00:00Z — Drain run (no new release)
-- Latest stable: v2026.5.16 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases.atom)
-- WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 403 error code 1010 (appsecret 40125 outage persists)
-- WeChat re-push v2026.5.7: REPUSH ERROR — HTTP 403 error code 1010 (appsecret 40125 outage persists)
-- WeChat re-push v2026.5.16: REPUSH ERROR — HTTP 403 error code 1010 (appsecret 40125 outage persists)
+- Latest stable: v2026.5.16 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases)
+- WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.7: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.16: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
 - Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
 - Action: no new release; queue retained for next retry
 
 ## 2026-05-18T11:00:00Z — Drain run (no new release)
-- Latest stable: v2026.5.16 (unchanged — matches last-release)
-- WeChat re-push v2026.4.30: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
-- WeChat re-push v2026.5.7: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
-- WeChat re-push v2026.5.16: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- Latest stable: v2026.5.16 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases.atom)
+- WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.7: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.16: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
 - Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
 - Action: no new release; queue retained for next retry
 
 ## 2026-05-18T10:00:00Z — Drain run (no new release)
 - Latest stable: v2026.5.16 (unchanged — matches last-release; confirmed via github.com/NousResearch/hermes-agent/releases)
-- WeChat re-push v2026.4.30: REPUSH_ERROR — HTTP 500, WeChat API error 40125 invalid appsecret (outage persists)
-- WeChat re-push v2026.5.7: REPUSH_ERROR — HTTP 500, WeChat API error 40125 invalid appsecret (outage persists)
-- WeChat re-push v2026.5.16: REPUSH_ERROR — HTTP 500, WeChat API error 40125 invalid appsecret (outage persists)
+- WeChat re-push v2026.4.30: REPUSH_ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (outage persists)
+- WeChat re-push v2026.5.7: REPUSH_ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (outage persists)
+- WeChat re-push v2026.5.16: REPUSH_ERROR — HTTP 500, WeChat token error 40125 invalid appsecret (outage persists)
 - Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
 - Action: no new release; queue retained for next retry
 
