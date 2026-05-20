@@ -1,3 +1,12 @@
+## 2026-05-20T08:38:00Z — Drain run (no new release)
+- Latest stable: v2026.5.16 (unchanged — confirmed via github.com/NousResearch/hermes-agent/releases.atom + releases page)
+- WeChat re-push v2026.4.30: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.7: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- WeChat re-push v2026.5.16: REPUSH ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
+- Queue size: 3 (v2026.4.30, v2026.5.7, v2026.5.16 remain queued)
+- Repo fix: fast-forwarded local main from 8121455 to b6447a3 (35 detached-HEAD commits recovered); pushing now
+- Action: no new release; queue retained for next retry
+
 ## 2026-05-19T12:45:00Z — Drain run (no new release)
 - Latest stable: v2026.5.16 (unchanged — confirmed via github.com/NousResearch/hermes-agent/releases)
 - WeChat re-push v2026.4.30: REPUSH_ERROR — HTTP 403 Forbidden (appsecret 40125 outage persists)
